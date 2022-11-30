@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {json} from "stream/consumers";
+
 
 type PropsType = {
     body: string
@@ -9,9 +8,6 @@ type PropsType = {
     title: string
     userId: number
 }
-
-
-
 
 function App() {
     const [state, setState] = useState<PropsType[]>([])
